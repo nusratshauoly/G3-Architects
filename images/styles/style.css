@@ -1,0 +1,32 @@
+/* font size use em/ rem  and width as a % */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h1{
+    font-size: 45px;
+}
+h2{
+   font-size: 64px;
+}
+h3{
+   font-size: 45px;
+}
+h4{
+   font-size: 20px;
+}
+p{
+    font-size: 16px;
+ }
+.common-btn{
+    font-size: 20px;
+}
