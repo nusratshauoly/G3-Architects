@@ -17,9 +17,11 @@ body{
 
 }
 section{
-   margin-top: 50px;
-   margin-bottom: 64px;
-}
+
+    margin: 64px;
+   /* margin-top: 50px;
+   margin-bottom: 64px;*/
+} 
 
 .common-btn{
     font-size: 1.3rem;
@@ -186,7 +188,8 @@ color: #727272;
 .experience-info{
     text-align: center;
     background-color:#FF900E;;
-    width: 18vw;
+    /* width: 18vw; */
+    width:50%;
     border-radius: 8px;
     padding: 30px 20px;
     color: #FFFFFF;
@@ -203,4 +206,62 @@ color: #727272;
 }
 .experience-info p{
    font-size: 1.5rem;
+}
+
+
+/* some facts section */
+.facts-container{
+    padding-left: 80px;
+}
+.facts-header{
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+    color: #131313; 
+}
+.facts-description{
+    font-weight: 400;
+font-size: 1rem;
+line-height: 26px;
+
+/* padding-bottom: 84px; */
+color: #727272;
+}
+.facts-info-container{
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: auto;
+  margin-right: auto;
+  
+   margin-top: 100px;
+}
+.facts-image{
+   border: 1px solid #ff900e;
+   
+   border-radius: 8px;
+
+  
+    padding: 40px 30px;
+    text-align: center;
+    width: 241.83px;
+    transition: .5s;
+    line-height: 40px;
+}
+.facts-image img{
+  width: 45.22px;
+  height: 45.22px;
+}
+.facts-image h3{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #424242;
+}
+
+
+.facts-image p{
+    font-weight: 600;
+    font-size: 1.25rem;
+   
+    color: #727272;
+    
 }
