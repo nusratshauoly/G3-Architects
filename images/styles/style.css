@@ -20,7 +20,7 @@ section{
 
     margin: 64px;
    /* margin-top: 50px;
-   margin-bottom: 64px;*/
+   margin-bottom: 64px; */
 } 
 
 .common-btn{
@@ -212,6 +212,7 @@ color: #727272;
 /* some facts section */
 .facts-container{
     padding-left: 80px;
+    margin-top: -60px;
 }
 .facts-header{
     font-weight: 700;
@@ -244,8 +245,11 @@ color: #727272;
     padding: 40px 30px;
     text-align: center;
     width: 241.83px;
-    transition: .5s;
+    transition: transform .7s ease-in-out .1s;
     line-height: 40px;
+}
+.facts-image:hover{
+    transform: scale(1.2);
 }
 .facts-image img{
   width: 45.22px;
@@ -264,4 +268,68 @@ color: #727272;
    
     color: #727272;
     
+}
+
+/* Our sponsors */
+
+.sponsors-info{
+   width:542px;
+   margin: auto;
+   text-align: center;
+}
+.sponsors-info h2{
+    font-weight: 700;
+    font-size: 2.8rem;
+   margin-bottom: 24px;
+    color: #131313;
+    
+}
+.sponsors-info p{
+    font-weight: 400;
+font-size: 1rem;
+line-height: 26px;
+color: #727272;
+margin-bottom: 70px;
+
+}
+
+.sponsors-agency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 55px;
+   
+    
+}
+.sponsors-agency img{
+    width: 150px;
+    height: 50px;
+    margin-bottom: 60px;
+}
+/* footer */
+.footer{
+    background: #FFF4E7;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 30px;
+    font-weight: 400;
+    text-align: center;
+    color:#424242;
+    font-size: 1.25rem;
+    width: 80%;
+    margin-bottom: 80px;
+
+
+ 
+}
+.footer p{
+
+
+
+
+
+
+
+
 }
