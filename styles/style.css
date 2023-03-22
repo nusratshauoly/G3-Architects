@@ -10,19 +10,24 @@
 }
 html {
     scroll-behavior: smooth;
-    font-size: 100%
+   
+
   }
 body{
     font-family: 'Work Sans', sans-serif;
 
+
 }
 section{
 
-    margin: 64px;
-   /* margin-top: 50px;
-   margin-bottom: 64px; */
+   
+   margin-top: 70px;
+   margin-bottom: 70px;
 } 
-
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .common-btn{
     font-size: 1.3rem;
     color:#FFFFFF;
@@ -49,7 +54,7 @@ nav{
 .nav-title{
     color:  #131313;
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 nav ul{
     display: flex;
@@ -159,11 +164,11 @@ nav li a{
 }
 
 .features{
-    padding: 30px;
+    padding: 15px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .features h4{
     font-weight: 600;
@@ -184,12 +189,13 @@ color: #727272;
 }
 .feature-image img{
     width: 90%;
+    height: 100%;
 }
 .experience-info{
     text-align: center;
     background-color:#FF900E;;
-    /* width: 18vw; */
-    width:50%;
+    width: 18vw;
+    /* width:50%; */
     border-radius: 8px;
     padding: 30px 20px;
     color: #FFFFFF;
@@ -212,7 +218,6 @@ color: #727272;
 /* some facts section */
 .facts-container{
     padding-left: 80px;
-    margin-top: -60px;
 }
 .facts-header{
     font-weight: 700;
@@ -297,8 +302,8 @@ margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 55px;
-    margin-right: 55px;
+    padding-left: 64px;
+    padding-right: 64px;
    
     
 }
@@ -317,19 +322,56 @@ margin-bottom: 70px;
     text-align: center;
     color:#424242;
     font-size: 1.25rem;
-    width: 80%;
+    width: 90%;
     margin-bottom: 80px;
 
 
  
 }
-.footer p{
 
+/* for mobile devices */
 
+@media only screen and (max-width:576px) {
+    .header{
 
+        /* width: 100vw; */
+        /* padding: 32px; */
+        
 
+       
+        /* height: auto;
+        clear: both; */
+        text-align: center;
+     }
+     .new-group-architect-image img{
+        width: 100%;
+       
+     
+    }
+/* quick list section */
+.container{
+  width: 100%;
+}
+    .quick-list-container{
+        display: block;
+        gap: 48px;
+        margin: 48px 144px;
+        justify-content: center;
+        /* align-items: center; */
+        margin-bottom: 16px;
+    }
+    .quick-list-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        width: 100%;
+       
+      }
 
+  
+}
 
-
-
+/* tablet devices */
+@media only screen and (min-width:768px) and (max-width:992px){
+   
 }
